@@ -40,7 +40,7 @@ export default defineConfig((/* ctx */) => {
         node: 'node20'
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
@@ -92,6 +92,10 @@ export default defineConfig((/* ctx */) => {
       // Quasar plugins
       plugins: []
     },
+      htmlVariables: {
+      title: 'Photjama Quasar App' // เพิ่ม title ของเว็บ
+      },
+
 
     // animations: 'all', // --- includes all animations
     // https://v2.quasar.dev/options/animations
